@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.h2{
+    background-color: rgb(107, 100, 100);
+    color:white;
+    height:60px;
+    
+}
+.container{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:60px;
+}
+.div{
+    width:65px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+a.divlink:link{
+    color:white;
+    background-color:transparent;
+    text-decoration: none;
+}
+.div:hover {
+    background-color: rgb(71, 69, 69);
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    transition: 1s;
+}
+
+a.divlink:visited{
+    color:white;
+}
+body{
+    background-image:url('car.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+.main{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    border:1px solid rgb(179, 165, 165);
+    backdrop-filter:blur(5px);
+}
+.formheader{
+    text-align: center;
+    color:white;
+}
+.signup{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:20px;
+    color:white;
+    width:250px;
+    height:300px;
+}
+.login{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:20px;
+    color:white;
+    width:290px;
+    height:350px;
+}
+a.signuplink:link{
+    color:white;
+    text-decoration:underline;
+
+}
+a.signuplink:visited{
+    color:white;
+    text-decoration:underline;
+}
+a.loginlink:link{
+    color:white;
+    text-decoration:underline;
+
+}
+a.loginlink:visited{
+    color:white;
+    text-decoration:underline;
+}
+.button{
+    background-color:rgb(151, 180, 151);
+    height:30px;
+    cursor:pointer;
+}
